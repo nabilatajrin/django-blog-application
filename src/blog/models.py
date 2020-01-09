@@ -7,9 +7,6 @@ class BlogPost(models.Model):
     content = models.TextField(null=True, blank=True)
 
 
-class Blog:
-    title = 'Hello world'
-    content = 'something'
 
 
 
